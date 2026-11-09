@@ -1,0 +1,9 @@
+{
+  "name": "tubapet",
+  "version": "1.0.0",
+  "description": "Cadastro de clientes e animais (PWA)",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "license": "ISC"
+}

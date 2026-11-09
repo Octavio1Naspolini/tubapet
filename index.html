@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d9488">
+  <title>Tubapet - Cadastro de cliente</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Tubapet</h1>
+    <nav>
+      <a href="index.html" class="ativo">Cliente</a>
+      <a href="animais.html">Animal</a>
+      <a href="lista.html">Lista</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Novo cliente</h2>
+    <form id="form-cliente">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" placeholder="Maria Silva" required>
+      <label for="telefone">Telefone</label>
+      <input type="tel" id="telefone" placeholder="(48) 99999-9999" required>
+      <label for="endereco">Endereço</label>
+      <input type="text" id="endereco" placeholder="Rua das Flores, 123 - Centro" required>
+      <button type="submit">Salvar</button>
+    </form>
+    <p id="mensagem" role="status"></p>
+  </main>
+  <script src="js/storage.js"></script>
+  <script src="js/cadastro.js"></script>
+  <script src="js/pwa.js"></script>
+</body>
+</html>
